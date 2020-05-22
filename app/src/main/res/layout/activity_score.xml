@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Maths Checker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textSize="40sp"
+        android:id="@+id/appName"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Game Score : 00"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appName"
+        android:layout_marginTop="40dp"
+        android:textSize="35sp"
+        android:id="@+id/gameScore"/>
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/share"
+        android:src="@drawable/ic_share_white_36dp"
+        android:background="@drawable/roundedbtn"
+        android:layout_below="@+id/gameScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"/>
+
+
+</RelativeLayout>
